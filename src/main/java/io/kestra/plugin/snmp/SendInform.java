@@ -45,7 +45,7 @@ import io.kestra.core.models.annotations.PluginProperty;
                         type: io.kestra.plugin.snmp.SendInform
                         host: "snmp.manager.local"
                         port: 162
-                        version: "v2c"
+                        snmpVersion: "v2c"
                         community: "public"
                         trapOid: "1.3.6.1.4.1.8072.2.3.0.1"
                         bindings:
